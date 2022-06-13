@@ -11,10 +11,10 @@
 ## 代码运行
 分别运行以下脚本，可复现各个模型最佳配置下的性能
 ```bash
-sbatch LSTMrun.sh      
-sbatch GRUrun.sh
-sbatch RNN_RELU.sh
-sbatch RNN_TANH.sh
-sbatch Transformerrun.sh
+bash LSTMrun.sh      
+bash GRUrun.sh
+bash RNN_RELU.sh
+bash RNN_TANH.sh
+bash Transformerrun.sh
 ```
 
